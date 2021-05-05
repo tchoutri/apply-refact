@@ -1,4 +1,7 @@
-resolver: lts-17.2
+resolver: lts-17.10
 
 packages:
 - .
+
+extra-deps:
+  - optparse-applicative-0.16.1.0@sha256:d410cc76e288b93d4ee7e06addc0381a7eaea43bcee0c3ced03f05cadec2f2fc,4836
